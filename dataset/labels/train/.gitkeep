@@ -1,0 +1,2 @@
+# Place YOLO format training annotations here (.txt)
+# Format: <class_id> <x_center> <y_center> <width> <height> (normalized 0-1)

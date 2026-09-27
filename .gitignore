@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# YOLO training runs and artifacts
+runs/
+*.log
+
+# Video uploads and outputs (preserve folders via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+output/*
+!output/.gitkeep
+
+# IDE / OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

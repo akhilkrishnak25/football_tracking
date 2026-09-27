@@ -1,0 +1,9 @@
+# Sports Ball Dataset Configuration for YOLO11
+path: ./dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: ball
